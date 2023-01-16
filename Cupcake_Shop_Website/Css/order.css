@@ -1,0 +1,64 @@
+
+.form, h1 {
+    background-color: white;
+    margin-top: 2%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+select, option, p, form, input, h1 {
+    background-color: white;
+}
+
+input, select {
+    cursor: pointer;
+    border: 2px solid #99E3EC;
+    font-size: 17px;
+    color: #68391A;
+}
+
+.allcontent {
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #68391A;
+}
+
+.allcontent2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /*min 400px max 1fr(fraction)*/
+    background-color: white;
+}
+
+.contentleft, .contentright {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid #68391A;
+}
+
+.products {
+    width: 50%;
+    float: right;
+}
+
+.contentleft2, .contentright2 {
+    background-color: white;
+}
+
+.contentleft, .contentright {
+    margin: 20px;
+}
+
+.contentleft2, .contentright2 {
+    margin-left: 5%;
+}
+
+.hide {
+    display: none;
+}
+
+.allcupcakes, .alltoppings{
+    background-color: white;
+}

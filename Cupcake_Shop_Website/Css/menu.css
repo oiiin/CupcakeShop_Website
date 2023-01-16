@@ -1,0 +1,81 @@
+h1 {
+    font-family: serif;
+    text-align: center;
+    color: #68391A;
+}
+
+nav {
+    width: 100%;
+    background-color: red;
+}
+
+.name {
+    float: left;
+    margin-left: 180px;
+    text-decoration: none;
+    width: 14%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #68391A;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+
+.name:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.name:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.menu {
+    color: #68391A;
+    background-color: #fff;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.heads {
+    background-color: #fff;
+    font-size: 50px;
+    color: #68391A;
+    background-color: #fff;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.content {
+    background-color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+
+}
+
+.menu1 {
+    float: right;
+    height: 340px;
+    width: 280px;
+    margin-right: 200px;
+    margin-top: -15px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    border: 3px solid;
+}

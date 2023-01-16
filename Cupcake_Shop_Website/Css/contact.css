@@ -1,0 +1,73 @@
+.allcontent {
+  display: flex;
+  justify-content: center;
+  margin: 4% 15% 0% 15%;
+  background-color: white;
+}
+
+.contentleft {
+  background-color: white;
+  width: 100%;
+  padding: 4%;
+}
+
+.contentright {
+  background-color: white;
+  width: 100%;
+  color: #68391A;
+  padding: 4%;
+}
+
+.contentright h1, form, .paragraph {
+  background-color: white;
+}
+
+.contentright form {
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  background-color: white;
+  border: 2px solid #99E3EC;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#email {
+  background-color: white;
+  border: 2px solid #99E3EC;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#message {
+  background-color: white;
+  border: 2px solid #99E3EC;
+  padding: 10px 10px 50px 10px;
+  margin-bottom: 20px;
+}
+
+#Submit {
+  background-color: #c9f6fc;
+  border: 2px solid #c9f6fc;
+  margin-left: 65%;
+  padding: 10px;
+  color: #68391A;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#name:hover, #email:hover, #message:hover {
+  border: 2px solid #68391A;
+}
+
+#Submit:hover {
+  background-color: #99E3EC;
+  border: 2px solid #99E3EC;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}

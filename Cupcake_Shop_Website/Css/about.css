@@ -1,0 +1,22 @@
+.allcontent {
+  display: flex;
+  justify-content: center;
+  margin: 4% 15% 0% 15%;
+  background-color: white;
+}
+
+.contentleft {
+  background-color: white;
+  padding: 4%;
+}
+
+.contentright {
+  background-color: white;
+  width: 100%;
+  color: #68391A;
+  padding: 4%;
+}
+
+.contentright h1, p {
+  background-color: white;
+}

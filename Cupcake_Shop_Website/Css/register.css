@@ -1,0 +1,64 @@
+.content {
+    padding: 15px;
+    background-color: white;
+    margin: 20px;
+}
+
+form {
+    margin: 20px;
+}
+
+h1, input, label, button, hr, form {
+    background-color: white;
+}
+
+.paragraph, .signin {
+    background-color: #f1f1f1;
+}
+
+h1, label {
+    color: #68391A;
+}
+
+input {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    width: 97%;
+    border: 1px solid grey;
+}
+
+label {
+    font-weight: 600;
+}
+
+.register, .reset {
+    cursor: pointer;
+    background-color: #c9f6fc;
+    border: none;
+    padding: 10px;
+    color: #68391A;
+    margin: 5px;
+}
+
+.login {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #99E3EC;
+}
+
+.signin {
+    color: #1e90ff;
+}
+
+.alert {
+    color: red;
+    background-color: white;
+    display: flex;
+    margin: 10px;
+}

@@ -1,0 +1,143 @@
+/*
+    Name: Kealey Lawton and Ahmed Ounissi
+    Date: 2022-07-30
+    Section: CST 8285 301 & 304
+    CSS file
+*/
+* {
+  background-color: #F9D195;
+}
+
+.logo {
+  text-align: center;
+}
+
+nav {
+  justify-content: center;
+}
+
+.navbar {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  border: 3px solid #99E3EC;
+  color: #68391A;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 18%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.navbar:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.navbar:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.cart {
+  float: right;
+}
+
+.intro {
+  text-align: center;
+  font-size: 35px;
+  color: #68391A;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cup1 {
+  text-align: center;
+  position: relative;
+}
+
+.cup1 {
+  height: 400px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 30px;
+  margin-right: 1000px;
+}
+
+h2 {
+  font-size: 50px;
+  font-style: oblique;
+  font-family: serif;
+}
+
+.stars {
+  text-align: center;
+  max-width: 100%;
+}
+
+.pic1 {
+  text-align: center;
+}
+
+#pic1 {
+  width: 60%;
+}
+
+#under {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+}
+
+.under {
+  width: 14.5%;
+  padding: 5px;
+}
+
+.column {
+  float: right;
+  width: 22%;
+  padding: 5px;
+  margin-right: 77px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.text {
+  padding-left: 50px;
+}
+
+.text {
+  text-align: justify;
+  float: right;
+  padding-left: 20px;
+  width: 400px;
+  margin-right: -23px;
+}
+
+#footer {
+  font-size: 15px;
+  font-style: oblique;
+  font-family: serif;
+  margin-left: 70px;
+}
